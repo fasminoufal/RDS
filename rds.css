@@ -1,0 +1,158 @@
+nav {
+    position: fixed !important;
+    width: 100%;
+}
+
+
+.logo img {
+    height: 50px;
+    width: 250px !important;
+
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.ul {
+    width: 100%;
+}
+
+.diva {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/imags/bU2f06yok7boyInwJpZbcJSrISS1Mrfnfa1CPKNP\ \(1\)\ \(1\).jpg);
+    color: white;
+    text-align: center;
+
+
+}
+
+.diva>img {
+    height: 100px;
+    margin-top: 10vh;
+}
+
+.diva>h1 {
+    font-size: 50px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+
+}
+
+.diva>p {
+    font-size: 21px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+}
+
+.diva .box {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+.box li {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+
+}
+
+.box .li1 {
+    background-image: url(/imags/d627b01a-94ad-4176-917b-1c1f97df89a3.jfif);
+}
+
+.box .li2 {
+    background-image: url(/imags/49fee878-ba42-431d-9637-47bc67b20a5e.jfif);
+}
+
+.box .li3 {
+    background-image: url(/imags/00f7447e-cafd-44d4-b1bd-8a8342e901a2.jfif);
+}
+
+.box .li4 {
+    background-image: url(/imags/b89079b4-be7f-4879-bafd-806667bf095b.jfif);
+}
+
+.box .li5 {
+    background-image: url(/imags/9216e088-fdd9-4a95-affa-feaeec25b2a2.jfif);
+}
+
+.divb {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.divb img {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.box img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    list-style-type: none;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.menu {
+    color: grey;
+}
+
+.footer2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer4 ul {
+    display: flex;
+    gap: 7px;
+
+}
+
+.button {
+    animation: animation 1s linear infinite !important;
+
+@keyframes animation !important{
+        0% {
+           
+        }
+
+        50% {
+            background-color
+
+        }
+
+        100% {
+            background-attachment: red;
+        }
+
+
+    }
+}
